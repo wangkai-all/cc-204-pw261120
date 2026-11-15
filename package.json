@@ -1,0 +1,14 @@
+{
+  "name": "bike-supply-demand-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "共享单车供需分析本地网页：合并快照/订单/调度，按站点重建可用车辆变化并估算潜在需求（合成数据演示）",
+  "scripts": {
+    "start": "node tools/serve.js",
+    "test": "node tools/smoke.js && node tools/domtest.js",
+    "smoke": "node tools/smoke.js",
+    "domtest": "node tools/domtest.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
